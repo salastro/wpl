@@ -1,6 +1,6 @@
 # Arabic {{{1 #
 arabic = {
-        # Basic Orders
+        # Basic functions {{{2 #
         'اطبع': 'print',
         'لكل': 'for',
         'فى': 'in',
@@ -8,7 +8,8 @@ arabic = {
         'اذا': 'if',
         'الا': 'elif',
         'اخر': 'else',
-        # String Methods 
+        # 2}}} #
+        # String methods {{{2 #
         'تكبير_اول_حرف()': 'capitalize()',
         'تصغير()':'casefold()',               
         'توسيط()': 'center()',	              
@@ -54,5 +55,6 @@ arabic = {
         'ترجمة()':'translate()',
         'تكبير()':'upper()',	
         'ز_ملئ()':'zfill()',	
+        # 2}}} #
         }
 # 1}}} #
