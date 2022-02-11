@@ -10,17 +10,18 @@ arabic = {
         'اخر': 'else',
         # 2}}} #
         # String methods {{{2 #
+        'نص':'string',
         'تكبير_اول_حرف': 'capitalize',
         'تصغير':'casefold',               
         'توسيط': 'center',	              
-        'عد':'count',	                
+        'عد':'count',	#Also part of the List methods                
         'ترميز':'encode',	                
         'نهايته':'endswith',	        
         'توسيع_التبويب':'expandtabs',      
         'ايجاد':'find',	                
         'صيغة':'format',	                
         'خريطة_صياغة':'format_map',	       
-        'فهرسة':'index',                    
+        'فهرسة':'index', #ُAlso part of the lists methods                   
         'ابجدي_رقمي_جميعهم':'isalnum',     
         'حروف_جميعهم':'isalpha',	       
         'اسكي_جميعهم':'isascii',	       
@@ -56,5 +57,18 @@ arabic = {
         'تكبير':'upper',	
         'ز_ملئ':'zfill',	
         # 2}}} #
-        }
+        # List Methods {{{2 #
+        'قائمة':'list',
+        'تضمين':'append',	
+        'محو':'clear',	#Also part of the Dictionary Methods
+        'نسخ':'copy',	#Also part of the Dictionary Methods
+        'عد':'count',	
+        'المد':'extend',
+        'إضافة':'insert',	
+        'صلاح':'pop',	 #Also part of the Dictionary Methods
+        'حذف':'remove',	
+        'عكس':'reverse',	
+        'ترتيب':'sort',
+        # 2}}} #
+}
 # 1}}} #
