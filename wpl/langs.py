@@ -73,7 +73,8 @@ arabic = {
         'عد': 'count',
         'المد': 'extend',
         'إضافة': 'insert',
-        'صلاح': 'pop',  # Also part of the Dictionary Methods
+        'رمى': 'pop',  # Also part of the Dictionary Methods
+        'رمي': 'pop',
         'حذف': 'remove',
         'عكس': 'reverse',
         'ترتيب': 'sort',
