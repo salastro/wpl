@@ -79,7 +79,7 @@ arabic = {
         'عكس': 'reverse',
         'ترتيب': 'sort',
         # 2}}} #
-        # Dictionary methods #
+        # Dictionary methods {{{2 #
         'عناصر':'items'
         'حصول':'get'
         'من_مفاتيح':'fromkeys'
@@ -88,5 +88,9 @@ arabic = {
         'تعيين_افتراضي':'setdefault'
         'تحديث':'update'
         'قيم':'values'
+        # 2}}} #
+        # Adding Tuple Methods {{{2 #
+        # Already added: Count/index فهرسة/عد #
+        
 }
 # 1}}} #
