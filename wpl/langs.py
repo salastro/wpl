@@ -79,5 +79,14 @@ arabic = {
         'عكس': 'reverse',
         'ترتيب': 'sort',
         # 2}}} #
+        # Dictionary methods #
+        'عناصر':'items'
+        'حصول':'get'
+        'من_مفاتيح':'fromkeys'
+        'مفاتيح':'keys'
+        'رمي_عنصر':'popitem'
+        'تعيين_افتراضي':'setdefault'
+        'تحديث':'update'
+        'قيم':'values'
 }
 # 1}}} #
