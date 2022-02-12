@@ -17,14 +17,14 @@ arabic = {
         'تصغير_طى': 'casefold',
         'تصغير_طي': 'casefold',
         'توسيط': 'center',
-        'عد': 'count',  # Also part of the List methods
+        'عد': 'count',  # Also part of the List methods/tuple methods
         'ترميز': 'encode',
         'نهايته': 'endswith',
         'توسيع_التبويب': 'expandtabs',
         'ايجاد': 'find',
         'صيغة': 'format',
         'خريطة_صياغة': 'format_map',
-        'فهرسة': 'index',  # ُAlso part of the lists methods
+        'فهرسة': 'index',  # ُAlso part of the lists methods/tuple methods
         'ابجدي_رقمي_جميعهم': 'isalnum',
         'ابجدي_رقمى_جميعهم': 'isalnum',
         'حروف_جميعهم': 'isalpha',
@@ -68,29 +68,43 @@ arabic = {
         # List Methods {{{2 #
         'قائمة': 'list',
         'تضمين': 'append',
-        'محو': 'clear',  # Also part of the Dictionary Methods
-        'نسخ': 'copy',  # Also part of the Dictionary Methods
+        'محو': 'clear',  # Also part of the Dictionary Methods/Set Methods
+        'نسخ': 'copy',  # Also part of the Dictionary Methods/Set Methods
         'عد': 'count',
         'المد': 'extend',
         'إضافة': 'insert',
-        'رمى': 'pop',  # Also part of the Dictionary Methods
-        'رمي': 'pop',
-        'حذف': 'remove',
+        'رمى': 'pop',  # Also part of the Dictionary Methods/Set Methods
+        'حذف': 'remove', # Also part of the Set Methods
         'عكس': 'reverse',
         'ترتيب': 'sort',
         # 2}}} #
         # Dictionary methods {{{2 #
-        'عناصر':'items'
-        'حصول':'get'
-        'من_مفاتيح':'fromkeys'
-        'مفاتيح':'keys'
-        'رمي_عنصر':'popitem'
-        'تعيين_افتراضي':'setdefault'
-        'تحديث':'update'
-        'قيم':'values'
+        'عناصر':'items',
+        'حصول':'get',
+        'من_مفاتيح':'fromkeys',
+        'مفاتيح':'keys',
+        'رمي_عنصر':'popitem',
+        'تعيين_افتراضي':'setdefault',
+        'تحديث':'update', # Also part of the Set Methods
+        'قيم':'values',
         # 2}}} #
         # Adding Tuple Methods {{{2 #
         # Already added: Count/index فهرسة/عد #
-        
+        # 2}}} #
+
+        # Adding Set Methods {{{2 #
+        'اضافة':'add',
+        'الفرق':'difference',
+        'تحديث_الفرق':'difference_update',
+        'استبعاد':'discard',
+        'تقاطع':'intersection',
+        'تحديث_تقاطع':'intersection_update',
+        'هل_متقاطع':'isdisjoint',
+        'هل_جزئية':'issubset',
+        'هل_ضمنية':'issuperset',
+        'الفرق_السيمتري':'symmetric_difference',
+        'تحديث_الفرق_السيمتري':'symmetric_difference_update',
+        'الاتحادية':'union',
+        # 2}}} #        
 }
 # 1}}} #
