@@ -105,6 +105,24 @@ arabic = {
         'الفرق_السيمتري':'symmetric_difference',
         'تحديث_الفرق_السيمتري':'symmetric_difference_update',
         'الاتحادية':'union',
-        # 2}}} #        
+        # 2}}} #       
+        # File Methods {{{2 #
+        'غلق':'close',
+        'فك':'detach',
+        'رقم_الفايل':'fileno',
+        'توريد':'flush',
+        'هل_تفاعلي':'isatty',
+        'قراءة':'read',
+        'قابل_للقراءة':'readable',
+        'قراءة_سطر':'readline',
+        'قراءة_سطور':'readlines',
+        'تغيير_المكان':'seek',
+        'قابل_لتغيير_مكانه':'seekable',
+        'اخبر':'tell',
+        'تحجيم':'truncate',
+        'كتابي':'writable',
+        'اكتب':'write',
+        'اكتب_سطور':'writelines',
+        # 2}}}#
 }
 # 1}}} #
