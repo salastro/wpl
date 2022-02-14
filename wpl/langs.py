@@ -10,6 +10,15 @@ arabic = {
         'اذا': 'if',
         'الا': 'elif',
         'اخر': 'else',
+        'طالما': 'while',
+        'مرر': 'pass',
+        'عرف': 'def',
+        'لامدا': 'lambda',
+        'اكسر': 'break',
+        'استمر': 'continue',
+        'طابق': 'match',
+        'حالة': 'case',
+        'رد': 'return',
         # 2}}} #
         # String methods {{{2 #
         'نص': 'string',
